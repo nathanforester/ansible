@@ -1,0 +1,6 @@
+- hosts: nathan
+  become: yes
+  roles:
+
+    - installDocker
+    - deploy
